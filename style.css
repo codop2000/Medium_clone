@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upper-header svg, .lower-header img {
+    cursor: pointer;
+}
+
+.upper-header {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8.5rem;
+}
+
+.upper-header .upper-right {
+    display: flex;
+    justify-content: center;
+}
+
+.upper-header .upper-right .sign-in, .upper-header .upper-right .get-started {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.53);
+    margin: 0 1rem;
+}
+.upper-header .upper-right .sign-in {
+    color: #008480 !important;
+    line-height: 2.1rem;
+}
+.upper-header .upper-right .get-started {
+    color: #008480;
+    border-color: #009B96 !important;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 99em;
+    padding: 0 1rem;
+    line-height: 2.1rem;
+}
+
+.lower-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 2rem;
+    padding: .5rem 0;
+}
+
+.lower-header .badge {
+    margin: 0 -3rem 0 0;
+}
+
+.lower-header .sub-nav ul {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.lower-header .sub-nav ul li {
+    width: max-content;
+    list-style-type: none;
+    margin: 0 .5rem;
+}
+
+.border-right {
+    border-right: 1px solid #000;
+    padding: 0 1.5rem 0 0 ;
+}
+
+.lower-header .sub-nav ul li a {
+    text-transform: uppercase;
+    font-size: .9375rem;
+    color: rgba(0, 0, 0, 0.53);
+    text-decoration: none;
+}
+.section-body {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+}
+.sidebar ul li {
+    list-style: none;
+}
+.img-1 {
+    width: 508px;
+    height: 181.8px;
+}
+.content-1 ul li {
+    list-style: none;
+    display: inline-block;
+}
+.content-2 ul li {
+    list-style: none;
+    display: inline-block;
+}
+.content-1 {
+    border: 1px solid rgba(0, 0, 0, .09);
+    padding: 10px 20px 15px 20px;
+    margin-top: 20px;
+}
+.avatar {
+    border-radius: 50%;
+}
+.aside-header {
+    margin-left: 281px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+#femi {
+    border: 1px solid rgba(0, 0, 0, .09);
+}
+.more-info {
+    color: #008480;
+}
+.img-header {
+    margin-left: 210px;
+}
+.upper-img {
+    margin-left: 130px;
+}
+.upper-right {
+    margin-right: -120px;
+}
+.header {
+    width: 85%;
+}
+.header .lower-header .sub-nav ul {
+    margin-left: 130px;
+}
