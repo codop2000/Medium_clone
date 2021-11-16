@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+.text-color {
+    color: #008480;
+}
+
+.text-normal-color {
+    color: rgba(0,0,0,.54);
+    fill: rgba(0,0,0,.54)!important;
+    font-size: 15px;
+}
+
+.follow-color {
+    color: #008480;
+    border-color: #009B96 !important;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 99em;
+    padding: 0 1rem;
+    line-height: 2.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.with-margin {
+    margin: 10px 0;
+}
+
+.with-margin__large {
+    margin: 20px 0;
+}
+
+.padding-bottom {
+    padding-bottom: 10px;
+}
+
+.about {
+    font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.about .about__card {
+    margin: 0 0 0 20px;
+    width: 630px;
+}
+
+.about .about__card a {
+    text-decoration: none;
+}
+
+.note {
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif !important;
+    border-bottom: 1px solid #ccc;
+}
+
+.editors {
+    font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+.editors .editors__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.editors .editors__card .editors__card__avatar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.editors .editors__card .editors__card__info {
+    width: 750px;
+}
+
+.editors .editors__card .editors__card__info a {
+    text-decoration: none;
+}
+/*---------------------------------------------*/
+.writers {
+    font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+.writers .writers__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.writers .writers__card .writers__card__avatar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.writers .writers__card .writers__card__info {
+    width: 750px;
+}
+
+.writers .writers__card .writers__card__info a {
+    text-decoration: none;
+}
+
+
+
